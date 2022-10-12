@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>NET45;NET40</TargetFrameworks>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFramework>net48</TargetFramework>
+    <AppDesignerFolder>Properties</AppDesignerFolder>    
   </PropertyGroup>
 
   <ItemGroup>
@@ -97,21 +97,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="ILRepack" Version="2.0.13" />
+    <PackageReference Include="ILRepack" Version="2.0.18" />
     <!-- marks all packages as 'local only' so they don't end up in the nuspec -->
     <PackageReference Update="@(PackageReference)" PrivateAssets="All" />
-    <PackageReference Update="ILRepack" Version="2.0.16" />
+<!--    <PackageReference Update="ILRepack" Version="2.0.18" />-->
   </ItemGroup>
 
   <PropertyGroup>
-    <AssemblyVersion>220.0.0.0</AssemblyVersion>
-    <FileVersion>220.2.0.0</FileVersion>
-    <Version>220.2.0</Version>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>222.0.0.0</AssemblyVersion>
+    <FileVersion>222.9.0.0</FileVersion>
+    <Version>222.9.0</Version>
     <Authors>Jason Newell</Authors>
     <Company />
     <Description>A single Interop Assembly containing all relevant Solid Edge API definitions.</Description>
-    <PackageReleaseNotes>Updated to Solid Edge 2020 MP2.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to Solid Edge 2022 MP9.</PackageReleaseNotes>
     <PackageId>Interop.SolidEdge</PackageId>
     <PackageIconUrl>https://raw.githubusercontent.com/SolidEdgeCommunity/Interop.SolidEdge/master/media/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/SolidEdgeCommunity/Interop.SolidEdge</PackageProjectUrl>
