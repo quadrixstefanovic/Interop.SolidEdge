@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace SolidEdgeSDK
 {
@@ -221,21 +223,6 @@ namespace SolidEdgeSDK
         /// CATID_SEAssemblyViewer
         /// </summary>
         public const string SEAssemblyViewer = "F2483121-58BC-44AF-8B8F-D7B74DC8408B";
-
-        /// <summary>
-        /// CATID_SEPartViewer
-        /// </summary>
-        public const string SEPartViewer = "BFC935F6-B523-49E7-A247-A219F4F81413";
-
-        /// <summary>
-        /// CATID_SEDraftViewer
-        /// </summary>
-        public const string SEDraftViewer = "85BB73AC-B624-4310-9C52-CA648659A706";
-        
-        /// <summary>
-        /// CATID_SubDModeling
-        /// </summary>
-        public const string SubDModeling = "EE4BC179-BC5A-441C-8B30-6BD62FD01476";
     }
 
     /// <summary>
@@ -447,21 +434,6 @@ namespace SolidEdgeSDK
         /// Guid constant for <see cref="SolidEdgeSDK.CATID.SEAssemblyViewer"/>
         /// </summary>
         public static readonly Guid SEAssemblyViewer = new Guid(CATID.SEAssemblyViewer);
-        
-        /// <summary>
-        /// Guid constant for <see cref="SolidEdgeSDK.CATID.SEPartViewer"/>
-        /// </summary>
-        public static readonly Guid SEPartViewer = new Guid(CATID.SEPartViewer);
-        
-        /// <summary>
-        /// Guid constant for <see cref="SolidEdgeSDK.CATID.SEDraftViewer"/>
-        /// </summary>
-        public static readonly Guid SEDraftViewer = new Guid(CATID.SEDraftViewer);
-        
-        /// <summary>
-        /// Guid constant for <see cref="SolidEdgeSDK.CATID.SubDModeling"/>
-        /// </summary>
-        public static readonly Guid SubDModeling = new Guid(CATID.SubDModeling);
     }
 
     ///// <summary>
