@@ -2,97 +2,97 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <AppDesignerFolder>Properties</AppDesignerFolder>    
+    <AppDesignerFolder>Properties</AppDesignerFolder>
   </PropertyGroup>
 
   <ItemGroup>
     <COMReference Include="SolidEdgeAssembly.dll">
-      <Guid>3e2b3bd4-f0b9-11d1-bdfd-080036b4d502</Guid>
+      <Guid>{3E2B3BD4-F0B9-11D1-BDFD-080036B4D502}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
+      <Isolated>False</Isolated>
     </COMReference>
     <COMReference Include="SolidEdgeConstants.dll">
-      <Guid>c467a6f5-27ed-11d2-be30-080036b4d502</Guid>
+      <Guid>{C467A6F5-27ED-11D2-BE30-080036B4D502}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
+      <Isolated>False</Isolated>
     </COMReference>
     <COMReference Include="SolidEdgeDraft.dll">
-      <Guid>3e2b3bdc-f0b9-11d1-bdfd-080036b4d502</Guid>
+      <Guid>{3E2B3BDC-F0B9-11D1-BDFD-080036B4D502}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
+      <Isolated>False</Isolated>
     </COMReference>
     <COMReference Include="SolidEdgeFileProperties.dll">
-      <Guid>aed8fe52-3129-11d1-bc83-0800360e1e02</Guid>
+      <Guid>{AED8FE52-3129-11D1-BC83-0800360E1E02}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
+      <Isolated>False</Isolated>
     </COMReference>
     <COMReference Include="SolidEdgeFrameworkSupport.dll">
-      <Guid>943ac5c6-f4db-11d1-be00-080036b4d502</Guid>
+      <Guid>{943AC5C6-F4DB-11D1-BE00-080036B4D502}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
+      <Isolated>False</Isolated>
     </COMReference>
     <COMReference Include="SolidEdgeFramework.dll">
-      <Guid>8a7efa3a-f000-11d1-bdfc-080036b4d502</Guid>
+      <Guid>{8A7EFA3A-F000-11D1-BDFC-080036B4D502}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <WrapperTool>tlbimp</WrapperTool>
       <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
-    </COMReference>
-    <COMReference Include="SolidEdgeGeometry.dll">
-      <Guid>3e2b3be1-f0b9-11d1-bdfd-080036b4d502</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
-    </COMReference>
-    <COMReference Include="SEInstallDataLib.dll">
-      <Guid>42e04299-18a0-11d5-bbb2-00c04f79bea5</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
-    </COMReference>
-    <COMReference Include="SolidEdgePart.dll">
-      <Guid>8a7efa42-f000-11d1-bdfc-080036b4d502</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
-    </COMReference>
-    <COMReference Include="RevisionManager.dll">
-      <Guid>df778d1a-0aa4-11d1-bc6e-0800360e1e02</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
+      <Isolated>False</Isolated>
     </COMReference>
     <COMReference Include="DesignManager.dll">
-      <Guid>427c71bd-b200-4421-ab49-12da610b369e</Guid>
+      <Guid>{427C71BD-B200-4421-AB49-12DA610B369E}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>false</Isolated>
+      <Lcid>0</Lcid>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="RevisionManager.dll">
+      <Guid>{DF778D1A-0AA4-11D1-BC6E-0800360E1E02}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SEInstallDataLib.dll">
+      <Guid>{42E04299-18A0-11D5-BBB2-00C04F79BEA5}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SolidEdgeGeometry.dll">
+      <Guid>{3E2B3BE1-F0B9-11D1-BDFD-080036B4D502}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SolidEdgePart.dll">
+      <Guid>{8A7EFA42-F000-11D1-BDFC-080036B4D502}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Lcid>0</Lcid>
+      <Isolated>False</Isolated>
     </COMReference>
   </ItemGroup>
 
@@ -100,17 +100,16 @@
     <PackageReference Include="ILRepack" Version="2.0.18" />
     <!-- marks all packages as 'local only' so they don't end up in the nuspec -->
     <PackageReference Update="@(PackageReference)" PrivateAssets="All" />
-<!--    <PackageReference Update="ILRepack" Version="2.0.18" />-->
   </ItemGroup>
 
   <PropertyGroup>
-    <AssemblyVersion>222.0.0.0</AssemblyVersion>
-    <FileVersion>222.9.0.0</FileVersion>
-    <Version>222.9.0</Version>
+    <AssemblyVersion>223.0.0.0</AssemblyVersion>
+    <FileVersion>223.0.0.0</FileVersion>
+    <Version>223.0.0</Version>
     <Authors>Jason Newell</Authors>
     <Company />
     <Description>A single Interop Assembly containing all relevant Solid Edge API definitions.</Description>
-    <PackageReleaseNotes>Updated to Solid Edge 2022 MP9.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated to Solid Edge 2023 MP0.</PackageReleaseNotes>
     <PackageId>Interop.SolidEdge</PackageId>
     <PackageIconUrl>https://raw.githubusercontent.com/SolidEdgeCommunity/Interop.SolidEdge/master/media/icon.png</PackageIconUrl>
     <PackageProjectUrl>https://github.com/SolidEdgeCommunity/Interop.SolidEdge</PackageProjectUrl>
